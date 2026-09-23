@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Contacto</title>
 </head>
+
 <body>
-    
+    <header style="text-align: center;">
+        <nav>
+            <H2>Formulario de Inscripción </H2>
+            <h3>Completa tus datos para postular a nuestro programa de formación</h3>
+        </nav>
+    </header>
+    <!-- Primera parte del formulario -->
+     <h5>Datos Personales</h5>
+    <nav style="text-align: center;">
+        <div class="row">
+        <div class="col-6" style="text-align: left;">
+        <label for="inputNombre" class="form-label">Nombre</label> <br>
+        <input type="text" class="form-control" placeholder="Ingrese su nombre" aria-label="First name">
+        </div>
+        <div class="col-6" style="text-align: left;">
+        <label for="inputApellido" class="form-label">Apellido</label> <br>
+        <input type="text" class="form-control" placeholder="Ingrese su apellido" aria-label="Last name">
+        </div>
+        <div   div class="col-6" style="text-align: left;">
+        <label for="inputEmail" class="form-label">Correo Electrónico</label> <br>
+        <input type="email" class="form-control" placeholder="ejemplo@correo.com" aria-label="Email">
+        
+        </div>
+        <div class="col-6" style="text-align: left;">
+        <label for="inputnumber" class="form-label">Número de Teléfono</label> <br>
+        <input type="text" class="form-control" placeholder="+56 9 1234 5678" aria-label="Phone number">
+        </div>
+        <div class="col-6" style="text-align: left;">
+        <label for="dateInput" class="form-label">Fecha de Nacimiento</label> <br>
+        <input type="date" class="form-control" id="dateInput" aria-label="Date">
+        </div>
+        <div class="col-6" style="text-align: left;">
+        <label for="RegionInput" class="form-label">Región</label> <br>
+        <select class="form-control" id="RegionInput" aria-label="Region">
+        <option value="">Seleccione su región</option>
+        <option value="Región de Arica y Parinacota">Región de Arica y Parinacota</option>
+        <option value="Región de Tarapacá">Región de Tarapacá </option>
+        <option value="Región de Antofagasta">Región de Antofagasta</option>
+        <option value="Región de Atacama">Región de Atacama</option>
+        <option value="Región de Coquimbo">Región de Coquimbo</option>
+        <option value="Región de Valparaíso">Región de Valparaíso</option>
+        <option value="Región Metropolitana de Santiago">Región Metropolitana de Santiago</option>
+        <option value="Región del Libertador General Bernardo O'Higgins">Región del Libertador General Bernardo O'Higgins</option>
+        <option value="Región del Maule">Región del Maule</option>
+        <option value="Región del Biobío">Región del Biobío</option>
+        <option value="Región de La Araucanía">Región de La Araucanía</option>
+        <option value="Región de Los Ríos">Región de Los Ríos</option>
+        <option value="Región de Los Lagos">Región de Los Lagos</option>
+        <option value="Región de Aysén del General Carlos Ibáñez del Campo">Región de Aysén del General Carlos Ibáñez del Campo</option>
+        <option value="Región de Magallanes y de la Antártica Chilena">Región de Magallanes y de la Antártica Chilena</option>
+        </select>
+    </nav>
+<nav> <br>
+    <h3>Información académica</h3>
+    <div>
+        <div class="form-check">
+            <h5>nivel de estudios</h5>
+  <input class="form-check-input" type="radio" name="Enseñanza Media" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Default radio
+  </label>
+    </div>
+    <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    Default checked radio
+  </label>
+ </div>
+    </div>
+</nav>
 </body>
 </html>
